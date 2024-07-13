@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصباح رباح ☀️</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="AZM Logo - Secondary.png" type="image/icon type">
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <img src="AZM Logo - First.png" height="200">
+    <h1>أصبحنا وأصبح الملك لله</h1>
+    <h3>قال رسول الله ﷺ : اللهم بارك لأمتي في بكورها</h3>
+    <input type="email" id="employeeEmail" placeholder="Enter your email (must be @azm.sa)" required>
+    <input type="text" id="employeeName" placeholder="Enter your name" required>
+    <button onclick="recordAttendance()">تسجيل الحضور</button>
+
+    <h2>قائمة المتصدرين</h2>
+    <ul id="attendanceLog"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
